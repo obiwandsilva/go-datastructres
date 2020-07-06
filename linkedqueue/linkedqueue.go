@@ -19,8 +19,8 @@ type Queue struct {
 }
 
 // NewQueue ...
-func NewQueue() Queue {
-	return Queue{0, nil, nil}
+func NewQueue() *Queue {
+	return &Queue{0, nil, nil}
 }
 
 // Enqueue ...
